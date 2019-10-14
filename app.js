@@ -6,7 +6,7 @@ var mongoose = require("mongoose");
 
 mongoose.set("useUnifiedTopology", true);
 
-console.log("=============THIS IS A DEVELOP BRANCH==============");
+console.log("=============THIS IS A MASTER BRANCH==============");
 
 mongoose.connect("mongodb://localhost/test", {
   useUnifiedTopology: true,
